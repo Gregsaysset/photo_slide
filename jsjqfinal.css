@@ -1,0 +1,85 @@
+
+/*Background image*/
+body {font-family: Verdana, sans-serif; margin:0;
+background-image: url("image/brick.jpg");
+}
+/*image sizing*/
+img {vertical-align: middle;
+width: 500px;
+height: 500px;}
+
+ h1{
+  text-align: center;
+  color: #326ba8;
+  text-decoration:underline;
+ }
+/* Slideshow container */
+.slideshow {
+  max-width: 750px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover,  */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* corner pic number */
+.picnum {
+  color: white;
+  font-size: 10px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+
+}
+
+/* small images*/
+.small img{
+  cursor: pointer;
+  width: 4em;
+  height: 4em;
+  opacity: 1;
+}
+/*small hover effect*/
+.small:hover {
+   opacity: .5;
+}
+
+
+}
+
+
